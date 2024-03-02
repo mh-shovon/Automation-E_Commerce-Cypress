@@ -27,6 +27,9 @@
 7. Import at e2e.js file in support folder--->
    import 'cypress-mochawesome-reporter/register';
 
+8. If wants to add XPATH manually install xpath dependencies first--->
+   npm i cypress-xpath [deprecated now, find something new]
+
 
 
 
