@@ -28,7 +28,7 @@
    import 'cypress-mochawesome-reporter/register';
 
 8. If wants to add XPATH manually install xpath dependencies first--->
-   npm i cypress-xpath [deprecated now, find something new]
+   npm i cypress-xpath [deprecated now, find something new].
 
 
 
