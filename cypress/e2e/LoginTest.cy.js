@@ -5,12 +5,12 @@ describe('Testing Login Functionality', () => {
        cy.viewport(1920, 1080);
     });
     
-    it('Login with invalid credentials', () => {
+    it('User Login with invalid credentials', () => {
         loginPage.userLogin("standard-user", "secret-sauce");
         loginPage.invalidAssertion();
     });
     
-    it('Login with valid credentials', () => {
+    it('User Login with valid credentials', () => {
       loginPage.userLogin("standard_user", "secret_sauce");
   });
 });
